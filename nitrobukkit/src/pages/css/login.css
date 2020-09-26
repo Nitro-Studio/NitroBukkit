@@ -1,10 +1,30 @@
+h1 {
+    font-weight: normal;
+    font-size: 35px;
+    margin: 2px;
+    padding: 2px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 25px;
+    margin: 2px;
+    padding: 2px;
+}
+
+p {
+    font-size: 18px;
+    margin: 2px;
+    padding: 2px;
+}
+
 .bgimg {
     position: absolute;
     top: 0; left: 0;
     width: 100%;
     height: 100%;
     opacity: 0.7;
-    overflow: visible;
+    overflow: hidden;
     filter: blur(10px);
     -webkit-filter: blur(10px)
 }
@@ -14,17 +34,79 @@
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     width: 750px;
-    height: 450px;
+    height: 420px;
     border-radius: 16px;
     color: rgb(240, 240, 240);
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(25, 25, 25);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(135deg, #ff6cab, #7366ff);
+}
+
+.loginbox .sideimg{
+    position: absolute;
+    z-index:-1;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: 85%;
+    overflow: hidden;
+    border-bottom-left-radius: 16px;
 }
 
 .loginbox .sidebox{
-    float: left;
+    float: right;
     text-align: center;
-    width: 50%;
+    width: 70%;
     height: 100%;
+}
+
+.inputbox{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    margin: 5px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 26px;
+    background-color: rgb(40, 40, 40);
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.input.ipbox {
+    float: left;
+    width: 55%;
+    padding-left: 10px;
+}
+
+.input.portbox {
+    float: right;
+    width: 30%;
+    padding-left: 10px;
+}
+
+.input.pwbox {
+    float: left;
+    width: 40%;
+    padding-left: 10px;
+}
+
+.authorization {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 5%;
+}
+
+.test {
+    width: 100%;
+    height: 100%;
+    background-color: red;
 }
