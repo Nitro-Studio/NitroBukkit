@@ -1,32 +1,29 @@
 import {
-  A,
-  B,
-  C
+  GOOGLE_LOGIN,
+  GOOGLE_LOGOUT
 } from './types.js'
 
-export const a = (a) => {
-  return (dispatch) => {
+export const googleLogin = (data) => {
+  return async (dispatch) => {
+    console.log(data)
     dispatch({
-      type: A,
-      payload: a
+      type: GOOGLE_LOGIN,
+      payload: {
+        login: true,
+        data: data
+      }
     })
   }
 }
 
-export const b = (b) => {
-  return (dispatch) => {
+export const googleLogout = () => {
+  return async (dispatch) => {
     dispatch({
-      type: B,
-      payload: b
-    })
-  }
-}
-
-export const c = (c) => {
-  return (dispatch) => {
-    dispatch({
-      type: C,
-      payload: c
+      type: GOOGLE_LOGOUT,
+      payload: {
+        login: false,
+        data: null
+      }
     })
   }
 }

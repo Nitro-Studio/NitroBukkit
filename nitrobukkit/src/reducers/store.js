@@ -1,7 +1,6 @@
 import {
-  A,
-  B,
-  C
+  GOOGLE_LOGIN,
+  GOOGLE_LOGOUT
 } from './types.js'
 
 const initialState = {
@@ -10,32 +9,30 @@ const initialState = {
     B: 'B',
     C: 'C'
   },
+  google: {
+    login: false,
+    data: null
+  }
 }
 
 export default (state = initialState, action) => {
   switch (action.type) {
-    case A:
+    case GOOGLE_LOGIN:
       return {
         ...state,
-        status: {
-          ...state.status,
-          A: action.payload
+        google: {
+          ...state.google,
+          login: action.payload.login,
+          data: action.payload.data
         }
       }
-    case B:
+    case GOOGLE_LOGOUT:
       return {
         ...state,
-        status: {
-          ...state.status,
-          B: action.payload
-        }
-      }
-    case C:
-      return {
-        ...state,
-        status: {
-          ...state.status,
-          C: action.payload
+        google: {
+          ...state.google,
+          login: action.payload.login,
+          data: action.payload.data
         }
       }
     default:

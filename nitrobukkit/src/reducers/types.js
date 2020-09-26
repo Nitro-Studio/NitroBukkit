@@ -1,3 +1,2 @@
-export const A = 'A'
-export const B = 'B'
-export const C = 'C'
+export const GOOGLE_LOGIN = 'GOOGLE_LOGIN'
+export const GOOGLE_LOGOUT = 'GOOGLE_LOGOUT'

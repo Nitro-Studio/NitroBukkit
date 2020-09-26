@@ -16,7 +16,7 @@ import Server from './pages/Server'
 ReactDOM.render(
     <React.StrictMode>
         <BrowserRouter>
-            <Provider store={createStore(store, {}, applyMiddleware(reduxThunk))}>
+            <Provider store={createStore(store, applyMiddleware(reduxThunk))}>
                 <Route exact path='/' component={Home} />
                 <Route path='/login' component={Login} />
                 <Route path='/dashboard' component={Dashboard} />
