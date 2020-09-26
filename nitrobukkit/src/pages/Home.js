@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import * as actions from '../reducers/actions'
+import './css/home.css'
 
 class Home extends React.Component {
     render() {

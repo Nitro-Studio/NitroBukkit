@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import * as actions from '../reducers/actions'
+import * as valid from '../functions/valid'
 import './css/login.css'
 
 import bg from '../assets/img/login_bg.png'
@@ -17,8 +18,8 @@ class Login extends React.Component {
                     <img src={login} className='sideimg' />
                     <div className='sidebox'>
                         <div className='head'>
-                            <h1>Welcome back!</h1>
-                            <h2>Connect to your server :)</h2>
+                            <h1>Login to connect</h1>
+                            <h2>Manage your server from anywhere.</h2>
                         </div>
 
                         <p>Server information</p>
@@ -27,7 +28,7 @@ class Login extends React.Component {
                                 <input
                                     type='text'
                                     placeholder='IP Address'
-                                    minLength='3'
+                                    pattern={valid.ipPattern}
                                     onChange={(e) => {
                                         //password = e.target.value
                                     }}
@@ -37,7 +38,7 @@ class Login extends React.Component {
                                 <input
                                     type='text'
                                     placeholder='Port'
-                                    minLength='3'
+                                    pattern={valid.portPattern}
                                     onChange={(e) => {
                                         //password = e.target.value
                                     }}
@@ -51,7 +52,7 @@ class Login extends React.Component {
                                 <input
                                     type='password'
                                     placeholder='Password'
-                                    minLength='3'
+                                    minLength='6'
                                     onChange={(e) => {
                                         //password = e.target.value
                                     }}
@@ -64,9 +65,9 @@ class Login extends React.Component {
                                 Login with Google
                             </div>
                         </div>
-                        <div className='loginbtn'>
+                        <button type='button' className='loginbtn'>
                             Login
-                        </div>
+                        </button>
                     </div>
                 </div>
             </>

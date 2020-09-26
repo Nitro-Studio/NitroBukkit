@@ -3,13 +3,13 @@ import { withRouter } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { compose } from 'redux'
 import * as actions from '../reducers/actions'
-import './css/server.css'
+import './css/dashboard.css'
 
-class Server extends React.Component {
+class Dashboard extends React.Component {
     render() {
         return (
             <>
-                <h1>Server</h1>
+                <h1>Dashboard</h1>
             </>
         )
     }
@@ -18,4 +18,4 @@ class Server extends React.Component {
 const mapStateToProps = (state) => ({
 
 })
-export default compose(connect(mapStateToProps, actions))(withRouter(Server))
+export default compose(connect(mapStateToProps, actions))(withRouter(Dashboard))

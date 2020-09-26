@@ -10,6 +10,7 @@ import store from './reducers/store'
 
 import Home from './pages/Home'
 import Login from './pages/Login'
+import Dashboard from './pages/Dashboard'
 import Server from './pages/Server'
 
 ReactDOM.render(
@@ -18,6 +19,7 @@ ReactDOM.render(
             <Provider store={createStore(store, {}, applyMiddleware(reduxThunk))}>
                 <Route exact path='/' component={Home} />
                 <Route path='/login' component={Login} />
+                <Route path='/dashboard' component={Dashboard} />
                 <Route path='/server' component={Server} />
             </Provider>
         </BrowserRouter>
