@@ -16,41 +16,56 @@ class Login extends React.Component {
                 <div className='loginbox'>
                     <img src={login} className='sideimg' />
                     <div className='sidebox'>
-                        <br />
-                        <br />
-                        <h1>Welcome back!</h1>
-                        <h2>Connect to your server :)</h2>
-                        <br />
-                        <div className='inputbox'>
-                            <p>Server information</p>
-                            <input
-                                className='input ipbox'
-                                type='text'
-                                placeholder='IP Address'
-                                minLength='3'
-                                onChange={(e) => {
-                                    //password = e.target.value
-                                }}
-                            />
-                            <input
-                                className='input portbox'
-                                type='text'
-                                placeholder='Port'
-                                minLength='3'
-                                onChange={(e) => {
-                                    //password = e.target.value
-                                }}
-                            />
-                            <p>Authorization</p>
-                            <input
-                                className='input pwbox'
-                                type='password'
-                                placeholder='Password'
-                                minLength='3'
-                                onChange={(e) => {
-                                    //password = e.target.value
-                                }}
-                            />
+                        <div className='head'>
+                            <h1>Welcome back!</h1>
+                            <h2>Connect to your server :)</h2>
+                        </div>
+
+                        <p>Server information</p>
+                        <div className='inputarea'>
+                            <div className='ipbox'>
+                                <input
+                                    type='text'
+                                    placeholder='IP Address'
+                                    minLength='3'
+                                    onChange={(e) => {
+                                        //password = e.target.value
+                                    }}
+                                />
+                            </div>
+                            <div className='portbox'>
+                                <input
+                                    type='text'
+                                    placeholder='Port'
+                                    minLength='3'
+                                    onChange={(e) => {
+                                        //password = e.target.value
+                                    }}
+                                />
+                            </div>
+                        </div>
+
+                        <p>Authorization</p>
+                        <div className='inputarea'>
+                            <div className='pwbox'>
+                                <input
+                                    type='password'
+                                    placeholder='Password'
+                                    minLength='3'
+                                    onChange={(e) => {
+                                        //password = e.target.value
+                                    }}
+                                />
+                            </div>
+                            <div className='vl' >
+                                or
+                            </div>
+                            <div className='authorization'>
+                                Login with Google
+                            </div>
+                        </div>
+                        <div className='loginbtn'>
+                            Login
                         </div>
                     </div>
                 </div>
