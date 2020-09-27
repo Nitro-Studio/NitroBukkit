@@ -14,10 +14,13 @@ import login from '../assets/img/login.svg'
 
 class Login extends React.Component {
     render() {
+        var ip = ''
+        var port = ''
+        var password = ''
+
         var name = ''
         if (this.props.google.login) {
             name = this.props.google.data.profileObj.name
-            console.log(name)
         }
 
         const googleLogin = (
@@ -28,7 +31,7 @@ class Login extends React.Component {
                         placeholder='Password'
                         minLength='6'
                         onChange={(e) => {
-                            //password = e.target.value
+                            password = e.target.value
                         }}
                     />
                 </div>
@@ -79,7 +82,7 @@ class Login extends React.Component {
                                     placeholder='IP Address'
                                     pattern={valid.ipPattern}
                                     onChange={(e) => {
-                                        //password = e.target.value
+                                        ip = e.target.value
                                     }}
                                 />
                             </div>
@@ -89,7 +92,7 @@ class Login extends React.Component {
                                     placeholder='Port'
                                     pattern={valid.portPattern}
                                     onChange={(e) => {
-                                        //password = e.target.value
+                                        port = e.target.value
                                     }}
                                 />
                             </div>
