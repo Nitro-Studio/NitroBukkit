@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/NitroBukkit/static/css/main.41a2bdef.chunk.css",
-    "main.js": "/NitroBukkit/static/js/main.a6f07c34.chunk.js",
-    "main.js.map": "/NitroBukkit/static/js/main.a6f07c34.chunk.js.map",
+    "main.js": "/NitroBukkit/static/js/main.4a470e06.chunk.js",
+    "main.js.map": "/NitroBukkit/static/js/main.4a470e06.chunk.js.map",
     "runtime-main.js": "/NitroBukkit/static/js/runtime-main.9103b657.js",
     "runtime-main.js.map": "/NitroBukkit/static/js/runtime-main.9103b657.js.map",
-    "static/js/2.4e4fdcc0.chunk.js": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js",
-    "static/js/2.4e4fdcc0.chunk.js.map": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.map",
+    "static/js/2.6c2c9cfc.chunk.js": "/NitroBukkit/static/js/2.6c2c9cfc.chunk.js",
+    "static/js/2.6c2c9cfc.chunk.js.map": "/NitroBukkit/static/js/2.6c2c9cfc.chunk.js.map",
     "index.html": "/NitroBukkit/index.html",
-    "precache-manifest.2836a1e9de27c947d8da5d728beaac76.js": "/NitroBukkit/precache-manifest.2836a1e9de27c947d8da5d728beaac76.js",
+    "precache-manifest.d738a5c898404d6e6f528380cd01ff12.js": "/NitroBukkit/precache-manifest.d738a5c898404d6e6f528380cd01ff12.js",
     "service-worker.js": "/NitroBukkit/service-worker.js",
     "static/css/main.41a2bdef.chunk.css.map": "/NitroBukkit/static/css/main.41a2bdef.chunk.css.map",
-    "static/js/2.4e4fdcc0.chunk.js.LICENSE.txt": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.LICENSE.txt",
+    "static/js/2.6c2c9cfc.chunk.js.LICENSE.txt": "/NitroBukkit/static/js/2.6c2c9cfc.chunk.js.LICENSE.txt",
     "static/media/login.svg": "/NitroBukkit/static/media/login.4fba52c1.svg",
     "static/media/login_bg.png": "/NitroBukkit/static/media/login_bg.316c819a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9103b657.js",
-    "static/js/2.4e4fdcc0.chunk.js",
+    "static/js/2.6c2c9cfc.chunk.js",
     "static/css/main.41a2bdef.chunk.css",
-    "static/js/main.a6f07c34.chunk.js"
+    "static/js/main.4a470e06.chunk.js"
   ]
 }

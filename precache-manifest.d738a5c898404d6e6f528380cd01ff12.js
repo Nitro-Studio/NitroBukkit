@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8641a00a92a28add4c16e857393ef262",
+    "revision": "d2f2cb37e3ed607f8f5a93db1ff2452a",
     "url": "/NitroBukkit/index.html"
   },
   {
-    "revision": "3a9305818e00afe729ba",
+    "revision": "e23b417a0bee997c6a89",
     "url": "/NitroBukkit/static/css/main.41a2bdef.chunk.css"
   },
   {
-    "revision": "f6bde17748f259cc9b1d",
-    "url": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js"
+    "revision": "18d616169cb989b17bba",
+    "url": "/NitroBukkit/static/js/2.6c2c9cfc.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.LICENSE.txt"
+    "url": "/NitroBukkit/static/js/2.6c2c9cfc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a9305818e00afe729ba",
-    "url": "/NitroBukkit/static/js/main.a6f07c34.chunk.js"
+    "revision": "e23b417a0bee997c6a89",
+    "url": "/NitroBukkit/static/js/main.4a470e06.chunk.js"
   },
   {
     "revision": "faaad69b3592332270f9",
