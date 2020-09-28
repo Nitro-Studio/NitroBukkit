@@ -1,6 +1,7 @@
 import {
   GOOGLE_LOGIN,
-  GOOGLE_LOGOUT
+  GOOGLE_LOGOUT,
+  TEST
 } from './types.js'
 
 const initialState = {
@@ -33,6 +34,14 @@ export default (state = initialState, action) => {
           ...state.google,
           login: action.payload.login,
           data: action.payload.data
+        }
+      }
+    case TEST:
+      return {
+        ...state,
+        status: {
+          ...state.status,
+          A: action.payload
         }
       }
     default:

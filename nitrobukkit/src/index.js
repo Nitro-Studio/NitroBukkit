@@ -15,7 +15,7 @@ import Server from './pages/Server/Server'
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Provider store={createStore(store, applyMiddleware(reduxThunk))}>
                 <Route exact path='/' component={Home} />
                 <Route path='/login' component={Login} />

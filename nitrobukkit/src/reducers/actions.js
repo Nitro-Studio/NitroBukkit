@@ -1,6 +1,7 @@
 import {
   GOOGLE_LOGIN,
-  GOOGLE_LOGOUT
+  GOOGLE_LOGOUT,
+  TEST
 } from './types.js'
 
 export const googleLogin = (data) => {
@@ -24,6 +25,16 @@ export const googleLogout = () => {
         login: false,
         data: null
       }
+    })
+  }
+}
+
+export const setTEST = (text) => {
+  return async (dispatch) => {
+    console.log(text)
+    dispatch({
+      type: TEST,
+      payload: text
     })
   }
 }

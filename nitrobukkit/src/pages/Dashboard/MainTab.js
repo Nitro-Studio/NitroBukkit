@@ -11,12 +11,14 @@ class MainTab extends React.Component {
         return (
             <nav className='page'>
                 <PageHeader title='Server Status' explanation='Explanation' />
+                <button type='button' onClick={() => { this.props.setTEST('test') }}>Set test</button>
+                <button type='button' onClick={() => { console.log(this.props.test.A) }}>Print test</button>
             </nav>
         )
     }
 }
 
 const mapStateToProps = (state) => ({
-
+    test: state.status
 })
 export default compose(connect(mapStateToProps, actions))(MainTab)

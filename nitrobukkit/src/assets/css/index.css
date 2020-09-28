@@ -8,6 +8,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    color:  #0cb8e0;
+}
+
 .page {
     position: fixed;
     margin-top: 60px;

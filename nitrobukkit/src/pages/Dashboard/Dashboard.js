@@ -12,6 +12,7 @@ import MainTab from './MainTab'
 
 class Dashboard extends React.Component {
     render() {
+
         return (
             <>
                 <Navbar page='Dashboard' />
