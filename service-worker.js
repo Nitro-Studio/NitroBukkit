@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/NitroBukkit/precache-manifest.5a0011e21c81e70d4954ed6895a77df0.js"
+  "/NitroBukkit/precache-manifest.ac576a24e101022d327d75664ab3d4b3.js"
 );
 
 self.addEventListener('message', (event) => {
