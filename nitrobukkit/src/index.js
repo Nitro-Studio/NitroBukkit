@@ -8,10 +8,10 @@ import { Provider } from 'react-redux'
 import reduxThunk from 'redux-thunk'
 import store from './reducers/store'
 
-import Home from './pages/Home'
-import Login from './pages/Login'
-import Dashboard from './pages/Dashboard'
-import Server from './pages/Server'
+import Home from './pages/Home/Home'
+import Login from './pages/Login/Login'
+import Dashboard from './pages/Dashboard/Dashboard'
+import Server from './pages/Server/Server'
 
 ReactDOM.render(
     <React.StrictMode>

@@ -4,13 +4,13 @@ import { connect } from 'react-redux'
 import { compose } from 'redux'
 import { GoogleLogin, GoogleLogout } from 'react-google-login';
 
-import * as actions from '../reducers/actions'
-import * as valid from '../functions/valid'
-import * as info from '../functions/info'
-import './css/login.css'
+import * as actions from '../../reducers/actions'
+import * as valid from '../../functions/valid'
+import * as info from '../../functions/info'
+import './login.css'
 
-import bg from '../assets/img/login_bg.png'
-import login from '../assets/img/login.svg'
+import bg from '../../assets/img/login_bg.png'
+import login from '../../assets/img/login.svg'
 
 class Login extends React.Component {
     render() {
