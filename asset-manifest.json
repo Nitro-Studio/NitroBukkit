@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/NitroBukkit/static/css/main.41a2bdef.chunk.css",
+    "main.js": "/NitroBukkit/static/js/main.016cdcea.chunk.js",
+    "main.js.map": "/NitroBukkit/static/js/main.016cdcea.chunk.js.map",
+    "runtime-main.js": "/NitroBukkit/static/js/runtime-main.9103b657.js",
+    "runtime-main.js.map": "/NitroBukkit/static/js/runtime-main.9103b657.js.map",
+    "static/js/2.4e4fdcc0.chunk.js": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js",
+    "static/js/2.4e4fdcc0.chunk.js.map": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.map",
+    "index.html": "/NitroBukkit/index.html",
+    "precache-manifest.0f90cbc63c3fbe496d4199bb67a768fa.js": "/NitroBukkit/precache-manifest.0f90cbc63c3fbe496d4199bb67a768fa.js",
+    "service-worker.js": "/NitroBukkit/service-worker.js",
+    "static/css/main.41a2bdef.chunk.css.map": "/NitroBukkit/static/css/main.41a2bdef.chunk.css.map",
+    "static/js/2.4e4fdcc0.chunk.js.LICENSE.txt": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.LICENSE.txt",
+    "static/media/login.svg": "/NitroBukkit/static/media/login.4fba52c1.svg",
+    "static/media/login_bg.png": "/NitroBukkit/static/media/login_bg.316c819a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9103b657.js",
+    "static/js/2.4e4fdcc0.chunk.js",
+    "static/css/main.41a2bdef.chunk.css",
+    "static/js/main.016cdcea.chunk.js"
+  ]
+}
