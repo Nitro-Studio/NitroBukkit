@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e12f74015b4be231179635327b88e82f",
+    "revision": "f4267bfc6897b14f56d9653ee16af21a",
     "url": "/NitroBukkit/index.html"
   },
   {
