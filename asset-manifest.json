@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/NitroBukkit/static/css/main.41a2bdef.chunk.css",
-    "main.js": "/NitroBukkit/static/js/main.016cdcea.chunk.js",
-    "main.js.map": "/NitroBukkit/static/js/main.016cdcea.chunk.js.map",
+    "main.js": "/NitroBukkit/static/js/main.a6f07c34.chunk.js",
+    "main.js.map": "/NitroBukkit/static/js/main.a6f07c34.chunk.js.map",
     "runtime-main.js": "/NitroBukkit/static/js/runtime-main.9103b657.js",
     "runtime-main.js.map": "/NitroBukkit/static/js/runtime-main.9103b657.js.map",
     "static/js/2.4e4fdcc0.chunk.js": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js",
     "static/js/2.4e4fdcc0.chunk.js.map": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.map",
     "index.html": "/NitroBukkit/index.html",
-    "precache-manifest.0f90cbc63c3fbe496d4199bb67a768fa.js": "/NitroBukkit/precache-manifest.0f90cbc63c3fbe496d4199bb67a768fa.js",
+    "precache-manifest.2836a1e9de27c947d8da5d728beaac76.js": "/NitroBukkit/precache-manifest.2836a1e9de27c947d8da5d728beaac76.js",
     "service-worker.js": "/NitroBukkit/service-worker.js",
     "static/css/main.41a2bdef.chunk.css.map": "/NitroBukkit/static/css/main.41a2bdef.chunk.css.map",
     "static/js/2.4e4fdcc0.chunk.js.LICENSE.txt": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.9103b657.js",
     "static/js/2.4e4fdcc0.chunk.js",
     "static/css/main.41a2bdef.chunk.css",
-    "static/js/main.016cdcea.chunk.js"
+    "static/js/main.a6f07c34.chunk.js"
   ]
 }
