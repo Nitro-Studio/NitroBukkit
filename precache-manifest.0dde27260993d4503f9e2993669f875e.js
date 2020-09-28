@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8641a00a92a28add4c16e857393ef262",
+    "revision": "e12f74015b4be231179635327b88e82f",
     "url": "/NitroBukkit/index.html"
   },
   {
-    "revision": "3a9305818e00afe729ba",
+    "revision": "9018aa6c852a1b201060",
     "url": "/NitroBukkit/static/css/main.41a2bdef.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/NitroBukkit/static/js/2.4e4fdcc0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a9305818e00afe729ba",
-    "url": "/NitroBukkit/static/js/main.a6f07c34.chunk.js"
+    "revision": "9018aa6c852a1b201060",
+    "url": "/NitroBukkit/static/js/main.fd51cf4d.chunk.js"
   },
   {
     "revision": "faaad69b3592332270f9",
